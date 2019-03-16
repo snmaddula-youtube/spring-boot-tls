@@ -1,0 +1,8 @@
+
+server:
+  port: 443
+  ssl:
+    key-alias: chocolate
+    key-store-password: chocolate
+    key-store: classpath:chocolate.p12
+    key-store-type: PKCS12
